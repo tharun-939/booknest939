@@ -1,0 +1,50 @@
+BookNest – Online Library Shelf UI
+Objective:
+Build a visually appealing online library shelf, leveraging only HTML and CSS for its construction. This interface aims to elegantly display various book categories and showcase current user reads.
+Tasks:
+1. Layout Structure
+   Vertical navigation panel
+   Hero banner section
+   Grid section with book cards
+
+
+2. Design Sections
+   Sidebar Navigation
+   Categories: Fiction, Non-Fiction, Self-Help, Tech, History
+
+
+   Banner Section
+   Welcome message with current reading list
+
+Books Grid
+ Cards with:
+    Book Title
+    Author
+    Star rating (CSS stars)
+    Genre Tag
+
+Recommended Reads
+ Styled horizontal scroll list or flex row
+
+
+3. Styling
+    Use warm, woody tones (brown, beige, cream)
+
+    Include hover popups for ratings or reviews
+
+    Book cover placeholders with image frames
+
+4. Accessibility & Semantics
+    Semantic tags for sections, headers, articles
+
+    Alt text for all book covers 
+
+Evaluation Points:
+    Layout mimics bookshelf UI
+
+    Aesthetic card designs
+
+    Mobile-friendly grid
+
+    Semantic, accessible structure
+

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fdfaf5;
+    color: #3e2f2f;
+    display: flex;
+}
+
+.sidebar {
+    background: #8b5e3c;
+    color: #fff;
+    width: 200px;
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: .5rem 0;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.banner {
+    background: #d9c2a3;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.page-aim-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.book-card {
+    background: #fff8f0;
+    border: 1px solid #e0d0c1;
+    border-radius: 8px;
+    padding: .8rem;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.book-card:hover {
+    transform: translateY(-4px);
+}
+
+.cover {
+    background: #c2a98b;
+    height: 120px;
+    margin-bottom: .5rem;
+    border-radius: 4px;
+}
+
+.book-img {
+    width: 90px;
+    height: 120px;
+}
+
+.author {
+    font-size: .9rem;
+    color: #6b4f3f;
+}
+
+.stars {
+    color: gold;
+    font-size: .9rem;
+    margin: .3rem 0;
+}
+
+.genre {
+    background: #8b5e3c;
+    color: #fff;
+    padding: .2rem .5rem;
+    border-radius: 4px;
+    font-size: .8rem;
+}
+
+.recommended h2 {
+    margin: 1rem 0 .5rem;
+}
+
+.scroll-row {
+    display: flex;
+    gap: .5rem;
+    overflow-x: auto;
+}
+
+.rec-card {
+    background: #c2a98b;
+    width: 100px;
+    height: 140px;
+    border-radius: 6px;
+    flex: 0 0 auto;
+}
+
+@media(max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+}
